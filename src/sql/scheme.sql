@@ -1,4 +1,4 @@
-drop table member if exists cascade;
+drop table member if exists;
 create table member (
                         member_id varchar(10),
                         money integer not null default 0,
