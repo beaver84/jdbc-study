@@ -27,6 +27,7 @@ class MemberRepositoryV1Test {
         dataSource.setPassword(PASSWORD);
         repository = new MemberRepositoryV1(dataSource);
     }
+
     @Test
     void crud() throws SQLException, InterruptedException {
         log.info("start");
